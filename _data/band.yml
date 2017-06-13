@@ -1,0 +1,20 @@
+- name: 	Patrick
+  image:        patrick.png
+  image_caption: Patrick
+  instrument:	Guitar
+
+- name: 	Leonie
+  image:	leonie.png
+  image_caption: Leonie
+  instrument:	Guitar
+
+- name:		Timo
+  image:	timo.png
+  image_caption: Timo
+  instrument: 	Bass
+
+- name:		Philipp
+  image:	philipp.png
+  image_caption: Philipp
+  instrument:	Drums
+
