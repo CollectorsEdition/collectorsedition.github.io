@@ -1,0 +1,43 @@
+defaults:
+  -
+    scope:
+      path: ''
+
+    values:
+      layout: default
+
+  -
+    scope:
+      type: posts
+      path: gigs
+
+    values:
+      layout: gig
+      pretitle: Gig
+      gig_og: true
+      no_title: true
+
+  -
+    scope:
+      type: posts
+      path: blog
+
+    values:
+      layout: blost
+      pretitle: Blog
+      priority: 100
+
+  -
+    scope:
+      type: albums
+  #    path: albums
+    values:
+      layout: album
+
+collections:
+  albums:
+    output: true
+
+permalink: pretty
+future: true
+exclude: [vendor]

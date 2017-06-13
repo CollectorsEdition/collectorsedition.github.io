@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html lang='en'>
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
-    <meta name='viewport' content='width=device-width, initial-scale=1' />
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js'></script>
-      <script src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js'></script>
-    <![endif]-->
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src='/javascript/bootstrap.js'></script>
-
+    {% include boilerplate.html %}
+    {% include js-boilerplate.html %}
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+    <script src="//cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.1.15/leaflet-providers.min.js'></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.2/moment.min.js"></script>
+    <link rel='icon' type='image/png' href='/assets/favicon.ico' />
     <link rel='stylesheet' href='/assets/application.css' type='text/css' />
-    <title>{{ page.title }}</title>
+    <style>{{ page.extra_styles }}</style>
+    {% assign title = page.title %}
+    {% if page.pretitle %}
+      {% capture title %}{{ page.pretitle}} » {{ page.title }}{% endcapture %}
+    {% endif %}
+    <title>{{ title }}</title>
+
+    {% include social.html %}
+
   </head>
 
   <body>
+    {% unless page.no_header %}
+      {% include header.html trim_class = page.trim_class %}
+    {% endunless %}
+    {% if page.with_nav %}
+      {% include navigation.html %}
+    {% endif %}
     <div class='container'>
+      {% unless page.no_title %}
+        {% assign title = page.title %}
+        {% if page.extra_title %}
+          {% capture title %}{{ page.extra_title }} {{ title }}{% endcapture %}
+        {% endif %}
+        <h1 class='main-title'>{{ title }}</h1>
+      {% endunless %}
       {{ content }}
+      {% if page.license_these %}
+        {% include license_note.html licensed = page.license_these version = page.license_version %}
+      {% endif %}
     </div>
+    {% include footer.html trim_class = page.trim_class %}
   </body>
 </html>

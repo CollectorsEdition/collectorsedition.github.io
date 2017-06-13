@@ -1,0 +1,90 @@
+---
+layout: default
+---
+<div class='row'>
+  <!--<div class='col-xs-3 preceeding-gig'>
+    {% if page.previous %}
+        <a href='{{ page.previous.url }}' class='btn btn-info'>
+          <i class='fa fa-angle-double-left'></i> <span class='hidden-xs'>{{ page.previous.title }}, {{ page.previous.date | date: "%-d %B"}}</span>
+        </a>
+    {% endif %}
+  </div>-->
+  <div class='col-xs-12'>
+    <h1 class='main-title'>{{ page.title }}</h1>
+  </div>
+  <!--<div class='col-xs-3 following-gig'>
+    {% if page.next %}
+      <a href='{{ page.next.url }}' class='btn btn-info'>
+        <span class='hidden-xs'>{{ page.next.title }}, {{ page.next.date | date: "%-d %B"}}</span> <i class='fa fa-angle-double-right'></i>
+      </a>
+    {% endif %}
+  </div>-->
+</div>
+
+<div class='row'>
+  <article>
+
+    <div class='col-md-6'>
+      <div class='gig'>
+        <dl class='dl-horizontal'>
+
+          <dt>Date<dt>
+          <dd>{{ page.date | date: "%A %-d %B %Y" }}</dd>
+
+          <dt>Time</dt>
+          <dd>{{ page.time }}</dd>
+
+          <dt>Location</dt>
+          <dd>{{ page.location | replace: ',', ',<br />'}}</dd>
+
+          {% if page.price %}
+            <dt>Price</dt>
+            <dd>{{ page.price }}</dd>
+          {% endif %}
+
+          {% if page.other_bands %}
+            <dt>Also appearing</dt>
+            <dd>
+              <ul class='other-bands'>
+                {% for band in page.other_bands %}
+                <li>
+                  <a href='{{ band.url }}' title='{{ band.name }}'>{{ band.name }}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </dd>
+          {% endif %}
+
+          {% if page.facebook_id or page.venue_website %}
+            <dt>More info</dt>
+            <dd>
+              <ul class='more-info'>
+                {% if page.venue_website %}
+                  <li>
+                    <a href='{{ page.venue_website }}' title='More information'>
+                      http://{{ page.venue_website | split: '://'| last | split: '/' | first }}/
+                    </a>
+                  </li>
+                {% endif %}
+                {% if page.facebook_id  %}
+                  <li>
+                    <a href='https://facebook.com/events/{{ page.facebook_id }}/' title='Facebook event'>
+                      Facebook
+                    </a>
+                  </li>
+                {% endif %}
+              </ul>
+            </dd>
+          {% endif %}
+
+        </dl>
+      </div>
+    </div>
+
+    <div class='col-md-6'>
+      {% include map.html latitude = page.latitude longitude = page.longitude location = page.location %}
+    </div>
+  </article>
+</div>
+
+{% include json-ld.html title = page.title date = page.date time = page.time location = page.location %}
