@@ -1,0 +1,11 @@
+- title: Facebook
+  url: https://facebook.com/collectorseditiontheband
+  fontawesome: fa-facebook-square
+
+- title: Soundcloud
+  url: https://soundcloud.com/collectorseditiontheband
+  fontawesome: fa-soundcloud
+
+- title: Github
+  url: https://github.com/collectorsedition
+  fontawesome: fa-github
