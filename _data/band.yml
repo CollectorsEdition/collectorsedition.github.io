@@ -1,20 +1,24 @@
 - name: 	Patrick
   image:        patrick.png
   image_caption: Patrick
+  photographer: Julian Huchtmann
   instrument:	Guitar
 
 - name: 	Leonie
   image:	leonie.png
   image_caption: Leonie
+  photographer: Julian Huchtmann
   instrument:	Guitar
 
 - name:		Timo
   image:	timo.png
   image_caption: Timo
+  photographer: Julian Huchtmann
   instrument: 	Bass
 
 - name:		Philipp
   image:	philipp.png
   image_caption: Philipp
+  photographer: Julian Huchtmann
   instrument:	Drums
 
