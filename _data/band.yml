@@ -2,23 +2,31 @@
   image:        patrick.png
   image_caption: Patrick
   photographer: Julian Huchtmann
+  license:      Attribution-NoDerivatives
+  license_url:  https://creativecommons.org/licenses/by-nd/4.0/
   instrument:	Guitar
 
 - name: 	Leonie
   image:	leonie.png
   image_caption: Leonie
   photographer: Julian Huchtmann
+  license:      Attribution-NoDerivatives
+  license_url:  https://creativecommons.org/licenses/by-nd/4.0/
   instrument:	Guitar
 
 - name:		Timo
   image:	timo.png
   image_caption: Timo
   photographer: Julian Huchtmann
+  license:      Attribution-NoDerivatives
+  license_url:  https://creativecommons.org/licenses/by-nd/4.0/
   instrument: 	Bass
 
 - name:		Philipp
   image:	philipp.png
   image_caption: Philipp
   photographer: Julian Huchtmann
+  license:      Attribution-NoDerivatives
+  license_url:  https://creativecommons.org/licenses/by-nd/4.0/
   instrument:	Drums
 
