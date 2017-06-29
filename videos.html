@@ -1,0 +1,9 @@
+---
+title: Videos
+---
+<div class='row'>
+ {% for video in site.data.youtube %}
+
+{% include youtubePlayer.html id= video.id cols = 2 title = video.title location = video.location%}
+{% endfor %}
+</div>

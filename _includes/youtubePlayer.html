@@ -1,0 +1,20 @@
+<div class='col-md-{{include.cols}}'>
+<section class='thumbnail {{include.class}}'>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
+
+<div class='caption'>
+ <h1>
+   {{include.title}}
+ </h1>
+
+ {% if include.location %}
+  <dt>
+   Location:
+  </dt>
+  <dd>
+    {{ include.location }}
+  </dd>
+ {% endif %}
+</section>
+</div>
