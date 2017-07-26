@@ -1,6 +1,7 @@
 ---
 location:    Teestube Bielefeld, Weihestr 13, 33613 Bielefeld
 time:        '18:00'
+price:       '5€'
 latitude:    52.04508
 longitude:   8.5192396
 facebook_id: 258738241201020
