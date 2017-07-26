@@ -2,6 +2,8 @@
 location: Alter Postweg 34, 33415 Verl
 time: '13:00'
 facebook_id: 250770765375281
+venue_website: http://flunkyrock.de
+price: 'free'
 other_bands:
   - name: Limelight Fire
     url: http://www.limelightfire.com/
