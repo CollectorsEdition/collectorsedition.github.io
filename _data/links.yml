@@ -14,6 +14,10 @@
   url: https://flickr.com/photos/collectorseditiontheband
   fontawesome: fa-flickr
 
+- title: Instagram
+  url: https://www.instagram.com/collectorseditiontheband/
+  fontawesome: fa-instagram
+
 - title: YouTube
   url: https://www.youtube.com/channel/UCgaMCRchL_sebEyN7SZ-Qsw
   fontawesome: fa-youtube-square
