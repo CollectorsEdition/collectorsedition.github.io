@@ -2,7 +2,7 @@
 location: Luna Sennestadt, Lindemannplatz 1, 33689 Bielefeld
 time: '19:00'
 #facebook_id: 
-venue_website: http://www.luna-sennestadt.de/
+venue_website: https://www.nachtderjugendkultur.de/bielefeld/946-luna-sennestadt.html
 price: 'free'
 other_bands:
   - name: Drehleiter 81
