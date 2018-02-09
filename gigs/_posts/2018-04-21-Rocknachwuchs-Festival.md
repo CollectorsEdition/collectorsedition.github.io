@@ -4,9 +4,10 @@ time:        '19:00'
 latitude:    52.27666
 longitude:   8.9162213
 venue_website: http://kreativzentrum-annefrank.de/veranstaltungen/rock-nachwuchs-festival-2/
-facebook_id: 
+facebook_id: 376019369494911
 other_bands:
   - name: Troy the Clown
+    url: http://www.troytheclown.de/
   - name: Resistance of the Weak
   - name: The Red Circle
   - name: Käthe beat it
@@ -14,4 +15,5 @@ other_bands:
   - name: KEV & NYK-O
   - name: Bunch of Panik
   - name: Queen of Smoke
+    url:  https://www.facebook.com/queenofsmoke/
 ---
