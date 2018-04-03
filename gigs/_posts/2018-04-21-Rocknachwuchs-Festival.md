@@ -9,10 +9,13 @@ other_bands:
   - name: Troy the Clown
     url: http://www.troytheclown.de/
   - name: Resistance of the Weak
+    url: https://www.facebook.com/resistanceoftheweak
   - name: The Red Circle
+    url: https://www.facebook.com/theredcircleband
   - name: Käthe beat it
   - name: Frozen Friday
   - name: KEV & NYK-O
+    url: https://www.facebook.com/kevnyko
   - name: Bunch of Panik
   - name: Queen of Smoke
     url:  https://www.facebook.com/queenofsmoke/
