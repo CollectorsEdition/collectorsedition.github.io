@@ -4,7 +4,7 @@
   photographer: Julian Huchtmann
   license:      Attribution-NoDerivatives
   license_url:  https://creativecommons.org/licenses/by-nd/4.0/
-  instrument:	Guitar
+  instrument:	Gitarre
 
 - name: 	Leonie
   image:	leonie.png
@@ -12,7 +12,7 @@
   photographer: Julian Huchtmann
   license:      Attribution-NoDerivatives
   license_url:  https://creativecommons.org/licenses/by-nd/4.0/
-  instrument:	Guitar
+  instrument:	Gitarre
 
 - name:		Timo
   image:	timo.png
@@ -22,11 +22,11 @@
   license_url:  https://creativecommons.org/licenses/by-nd/4.0/
   instrument: 	Bass
 
-- name:		Philipp
-  image:	philipp.png
-  image_caption: Philipp
-  photographer: Julian Huchtmann
+- name:		Sören
+  image:	
+  image_caption: 
+  photographer: 
   license:      Attribution-NoDerivatives
   license_url:  https://creativecommons.org/licenses/by-nd/4.0/
-  instrument:	Drums
+  instrument:	Schlagzeug
 

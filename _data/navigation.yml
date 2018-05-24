@@ -1,4 +1,4 @@
-- title: The Band
+- title: Die Band
   path: /the-band/
 
 - title: Sounds
@@ -7,14 +7,11 @@
 - title: Videos
   path: /videos/
 
-- title: Pictures
+- title: Bilder
   path: /pictures/
 
-- title: Gigs
+- title: Auftritte
   path: /gigs/
-
-- title: Bookings
-  path: /book-the-band/
 
 - title: Reviews
   path: /feedback/
