@@ -1,17 +1,10 @@
 ---
-- title: Stay and Stumble
-  id: 302366274
-  url: https://soundcloud.com/collectorseditiontheband/demo-stay-and-stumble
-  location: Beat and Breakfast
-  date: 2016-12-10
-  engineer: Florian Hofmann
+- title: Live EP
+  id: 562443000
+  url: https://soundcloud.com/collectorseditiontheband/sets/collectors-edition-at-rnf-minden-live-ep
+  location: Anne Frank Haus Minden
+  engineer: Karsten Geier
+  date: 2018-04-21
   license: Attribution-NonCommercial-NoDerivatives
   license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
-- title: Zombies
-  id: 302331422
-  url: https://soundcloud.com/collectorseditiontheband/demo-zombies
-  location: Beat and Breakfast
-  date: 2016-12-10
-  engineer: Florian Hofmann
-  license: Attribution-NonCommercial-NoDerivatives
-  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  
