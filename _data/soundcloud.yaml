@@ -1,10 +1,43 @@
 ---
-- title: Live EP
-  id: 562443000
-  url: https://soundcloud.com/collectorseditiontheband/sets/collectors-edition-at-rnf-minden-live-ep
+- title: Zombies
+  id: 472287075
+  url: https://soundcloud.com/collectorseditiontheband/zombies
   location: Anne Frank Haus Minden
-  engineer: Karsten Geier
   date: 2018-04-21
+  engineer: Karsten Geier
   license: Attribution-NonCommercial-NoDerivatives
   license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+- title: Stay & Stumble
+  id: 472287063
+  url: https://soundcloud.com/collectorseditiontheband/stay-stumble
+  location: Anne Frank Haus Minden
+  date: 2018-04-21
+  engineer: Karsten Geier
+  license: Attribution-NonCommercial-NoDerivatives
+  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+- title: Funky
+  id: 472287060
+  url: https://soundcloud.com/collectorseditiontheband/funky
+  location: Anne Frank Haus Minden
+  date: 2018-04-21
+  engineer: Karsten Geier
+  license: Attribution-NonCommercial-NoDerivatives
+  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+- title: Gray
+  id: 472287048
+  url: https://soundcloud.com/collectorseditiontheband/gray
+  location: Anne Frank Haus Minden
+  date: 2018-04-21
+  engineer: Karsten Geier
+  license: Attribution-NonCommercial-NoDerivatives
+  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+- title: Actually It Was Bedtime
+  id: 472287042
+  url: https://soundcloud.com/collectorseditiontheband/actually-it-was-bedtime
+  location: Anne Frank Haus Minden
+  date: 2018-04-21
+  engineer: Karsten Geier
+  license: Attribution-NonCommercial-NoDerivatives
+  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+    
   
