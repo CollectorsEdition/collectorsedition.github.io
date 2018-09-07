@@ -18,6 +18,10 @@
   url: https://www.instagram.com/collectorseditiontheband/
   fontawesome: fa-instagram
 
+- title: Twitter
+  url: https://twitter.com/collecttheband
+  fontawesome: fa-twitter
+
 - title: YouTube
   url: https://www.youtube.com/channel/UCgaMCRchL_sebEyN7SZ-Qsw
   fontawesome: fa-youtube-square
