@@ -10,10 +10,11 @@ other_bands:
   - name: All by my own
   - name: Bæcksten
     url: https://www.facebook.com/baecksten
-  - name: LYNTOW
+  - name: Lyntow
     url: https://www.facebook.com/lyntow/
-  - name: PSAIKORILLAZ
+  - name: Psaikorillaz
     url: https://www.facebook.com/Psaikorillaz/
   - name: Let's Kill the Captain
     url: https://www.facebook.com/LetsKillTheCaptain/
+  - name: Wrekstar
 ---
