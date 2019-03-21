@@ -1,3 +1,9 @@
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<!--
 ---
 layout: default
 title: Collector's Edition
@@ -20,3 +26,12 @@ with_nav: true
      class='splash center-block visible-xs-inline-block visible-sm-inline-block'/>
 
 {% include straplines.html %}
+-->
+<h1>Hier gibt es heute nichts zu sehen!</h1>
+
+<p>Aus Protest gegen Teile der geplanten EU-Urheberrechtsreform ist diese Seite heute nicht anzusehen. </p>
+
+<p><a href="https://savetheinternet.info">savetheinternet.info<a></p>
+
+</body>
+</html>
