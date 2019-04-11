@@ -4,7 +4,7 @@ time:        '19:00'
 price:       7€
 latitude: 
 longitude:  
-venue_website: https://www.facebook.com/jz.stricker.live
+venue_website: https://www.jz-stricker.de/
 facebook_id: 566713477153881
 other_bands:
   - name: The Trash Templars
