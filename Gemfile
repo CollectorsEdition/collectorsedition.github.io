@@ -6,3 +6,4 @@ gem 'dotenv'
 gem 'html-proofer'
 gem 'rake'
 gem 'purdie'
+gem "kramdown", ">= 2.3.0"
