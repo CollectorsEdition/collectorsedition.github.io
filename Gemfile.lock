@@ -312,6 +312,7 @@ DEPENDENCIES
   github-pages
   html-proofer
   kramdown (>= 2.3.0)
+  mimemagic
   purdie
   rake
 
