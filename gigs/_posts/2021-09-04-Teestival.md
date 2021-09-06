@@ -5,6 +5,8 @@ latitude:    52.04508
 longitude:   8.5192396
 facebook_id: 239373838071689
 other_bands:
+  - name IO
+    url: https://www.instagram.com/i.o.band/
   - name: Mogel
     url: https://www.instagram.com/presentedbymogel
   - name: Spacebunny Ninja
