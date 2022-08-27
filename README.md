@@ -1,6 +1,6 @@
 # collectorsedition.github.io
 
-![Jekyll site CI](https://github.com/CollectorsEdition/collectorsedition.github.io/workflows/Jekyll%20site%20CI/badge.svg)
+![Jekyll site CI](https://github.com/CollectorsEdition/collectorsedition.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
 
 This is part of our bandwebsite.
 
